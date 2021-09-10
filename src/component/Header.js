@@ -7,13 +7,13 @@ const Header = () => {
         <div className="header-wrapper">
             <Image src={headerBg} style={{ width: "100%", height: "100%" }} fluid />
             <div>
-                <h1 className="centered">Development and website promotions</h1>
+                <h1 className="main-info centered">Development and website promotions</h1>
                 <Typed
                     className="typed-text centered"
                     strings={[
                         "Web design",
                         "Web development",
-                        "responsive wordpress website"
+                        "wordpress website"
                     ]}
                     typeSpeed={40}
                     backSpeed={60}
