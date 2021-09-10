@@ -5,7 +5,7 @@ import logo from './images/logo.jpg';
 const NavBar = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" className="p-2" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" className="p-2 fixed-top" bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand href="#home">
                         <Image className="logo" src={logo} roundedCircle />
