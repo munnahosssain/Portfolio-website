@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Image } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import headerBg from './images/headerBg.jpg';
 import Typed from "react-typed";
 const Header = () => {

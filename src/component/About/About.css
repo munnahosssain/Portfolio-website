@@ -1,0 +1,31 @@
+body {
+    background-color: goldenrod;
+}
+.img-centered {
+    transform: translate(30%);
+    width: 20.75rem;
+    border-radius: 50%;
+}
+
+@media (max-width: 425px) {
+    .img-centered {
+        width: 12.75rem;
+        border-radius: 50%;
+    }
+}
+
+.about-text-centered {
+    margin: 2.5rem;
+    transform: translate(20%);
+}
+
+@media (max-width: 425px) {
+    .about-text-centered {
+    margin: 2.5rem;
+    }
+}
+
+.card-title{
+    color: var(--primary-orange);
+    text-transform:var(--text-uppercase);
+}

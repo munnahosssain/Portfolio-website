@@ -11,6 +11,9 @@ body{
     --primary-red: #ef4035;
     --primary-hover-red: #f33501;
 }
+:root{
+  --text-uppercase: uppercase;
+}
 
 /* --------------- NAVBAR --------------- */
 .navbar{
@@ -27,7 +30,7 @@ body{
 
 .nav-link {
     font-weight: 500;
-    text-transform: uppercase;
+    text-transform:var(--text-uppercase);
 }
 
 .nav-link:focus{
@@ -55,7 +58,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--primary-orange);
-    text-transform: uppercase;
+    text-transform:var(--text-uppercase);
     /* z-index: 1; */
   }
 @media (max-width: 768px) {
@@ -95,13 +98,13 @@ body{
 }
   
 
-  /* --------------- HEADER-BUTTON --------------- */
+/* --------------- HEADER-BUTTON --------------- */
 
 .btn-main{
     z-index: 1;
     padding: 0.625rem;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform:var(--text-uppercase);
     color: var(--primary-white);
     border: 1px solid var(--primary-red);
 }

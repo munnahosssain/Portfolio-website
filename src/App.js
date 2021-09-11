@@ -2,6 +2,7 @@ import './App.css';
 import NavBar from './component/NavBar';
 import Header from './component/Header';
 import Particles from 'react-particles-js';
+import About from './component/About/About';
 
 function App() {
     return (
@@ -29,6 +30,7 @@ function App() {
             />
             <NavBar />
             <Header />
+            <About/>
         </div>
     );
 }
