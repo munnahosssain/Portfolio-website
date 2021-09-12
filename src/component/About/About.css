@@ -1,25 +1,25 @@
-body {
-    background-color: goldenrod;
-}
+/* .bg-color {
+    background: linear-gradient(#ffffff), #e5e5e5);
+} */
 .img-centered {
     transform: translate(30%);
     width: 20.75rem;
     border-radius: 50%;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
     .img-centered {
-        width: 12.75rem;
-        border-radius: 50%;
+        width: 16.75rem;
     }
 }
 
-.about-text-centered {
-    margin: 2.5rem;
-    transform: translate(20%);
+@media (max-width: 425px) {
+    .img-centered {
+        width: 12.75rem;
+    }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
     .about-text-centered {
     margin: 2.5rem;
     }
