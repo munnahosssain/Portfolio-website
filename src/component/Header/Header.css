@@ -1,0 +1,47 @@
+.header-wrapper{
+    position: relative;
+    height: 100vh;
+}
+
+@media (max-width: 425px) {
+    .header-wrapper{
+      position: relative;
+      height: 80vh !important;
+    }
+  }
+
+@media (max-width: 768px) {
+    .main-info h1{
+      font-size: 1rem !important;
+    }
+}
+
+/* --------------- HEADER-BUTTON --------------- */
+
+.btn-main{
+    z-index: 1;
+    padding: 0.625rem;
+    text-decoration: none;
+    text-transform:var(--text-uppercase);
+    color: var(--primary-white);
+    border: 1px solid var(--primary-red);
+}
+
+@media (max-width:768px) {
+  .btn-main{
+    padding: 0.325rem;
+  }
+}
+
+.btn-main:hover{
+      transition: .3s ease-in-out;
+      color: var(--primary-white);
+      background-color: var(--primary-hover-red);
+}
+.btn-centered {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}

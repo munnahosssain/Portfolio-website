@@ -1,6 +1,7 @@
+import './Header.css'
 import React from 'react';
 import { Image } from 'react-bootstrap';
-import headerBg from './images/headerBg.jpg';
+import headerBg from '../images/headerBg.jpg'
 import Typed from "react-typed";
 const Header = () => {
     return (

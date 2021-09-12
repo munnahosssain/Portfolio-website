@@ -15,57 +15,16 @@ body{
   --text-uppercase: uppercase;
 }
 
-/* --------------- NAVBAR --------------- */
-.navbar{
-  z-index: ;
-}
-
-.logo {
-    height: 3.75rem;
-    width: 3.75rem;
-}
-
-
-/* *************** MENU ****************** */
-
-.nav-link {
-    font-weight: 500;
-    text-transform:var(--text-uppercase);
-}
-
-.nav-link:focus{
-    border-radius: 0.625rem;
-    border-bottom: 0.125rem solid var(--primary-orange);
-}
-
-.nav-link:hover{
-    border-bottom: 0.125rem solid var(--primary-orange);
-}
-
 /* --------------- HEADER --------------- */
-
-.header-wrapper{
-    position: relative;
-    background: url(./component/images/headerBg.jpg) no-repeat;
-    /* background-image: linear-gradient(rgba(37, 37, 61, 0.5), rgba(214, 199, 199, 0.5)),
-                  url(./component/images/headerBg2.png); */
-    height: 100vh;
-}
 
 .centered {
     position: absolute;
-    top: 50%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--primary-orange);
-    text-transform:var(--text-uppercase);
-    /* z-index: 1; */
-  }
-@media (max-width: 768px) {
-    .main-info h1{
-      font-size: 1rem !important;
-
-    }
+    text-transform: var(--text-uppercase);
+    z-index: 1;
 }
 
 
@@ -80,52 +39,22 @@ body{
 @media (max-width: 1635px) {
   .typed-text{
     font-size: 1.5rem;
-    top: 59%;
+    top: 58%;
   }
 }
 
 @media (max-width: 768px) {
   .typed-text{
     font-size: 1.5rem;
-    top: 59%;
+    top: 58%;
   }
 }
 
 @media (max-width: 425px) {
   .typed-text{
     font-size: 0.9rem;
+    top: 59%;
   }
-}
-  
-
-/* --------------- HEADER-BUTTON --------------- */
-
-.btn-main{
-    z-index: 1;
-    padding: 0.625rem;
-    text-decoration: none;
-    text-transform:var(--text-uppercase);
-    color: var(--primary-white);
-    border: 1px solid var(--primary-red);
-}
-
-@media (max-width:768px) {
-  .btn-main{
-    padding: 0.325rem;
-  }
-}
-
-.btn-main:hover{
-      transition: .3s ease-in-out;
-      color: var(--primary-white);
-      background-color: var(--primary-hover-red);
-}
-.btn-centered {
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-transform: uppercase;
 }
 
 /* --------------- PARTICLES JS --------------- */

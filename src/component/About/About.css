@@ -25,7 +25,7 @@
     }
 }
 
-.card-title{
+.text-about{
     color: var(--primary-orange);
     text-transform:var(--text-uppercase);
 }

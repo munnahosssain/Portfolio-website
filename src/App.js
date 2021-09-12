@@ -1,9 +1,9 @@
 import './App.css';
-import NavBar from './component/NavBar';
-import Header from './component/Header';
+import NavBar from './component/NavBar/NavBar';
 import Particles from 'react-particles-js';
 import About from './component/About/About';
 import Services from './component/Services/Services';
+import Header from './component/Header/Header';
 
 function App() {
     return (
