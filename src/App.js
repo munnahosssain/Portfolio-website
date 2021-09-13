@@ -4,6 +4,7 @@ import Particles from 'react-particles-js';
 import About from './component/About/About';
 import Services from './component/Services/Services';
 import Header from './component/Header/Header';
+import Contacts from './component/Contacts/Contacts';
 
 function App() {
     return (
@@ -33,6 +34,7 @@ function App() {
             <Header />
             <About/>
             <Services/>
+            <Contacts/>
         </div>
     );
 }

@@ -3,13 +3,13 @@ body{
 }
 
 .bg-color{
-    height: 42vh;
+    height: 49vh;
     background-color: #e6e6e6;
 }
 
 @media (max-width:1440px) {
     .bg-color{
-        height: 45vh;
+        height: 49vh;
     }
 }
 
