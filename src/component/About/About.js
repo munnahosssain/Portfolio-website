@@ -1,7 +1,7 @@
 import './About.css'
 import '../../App.css'
 import React from 'react';
-import logo from '../images/logo.jpg'
+import logo from '../images/logo.png'
 
 const About = () => {
     return (

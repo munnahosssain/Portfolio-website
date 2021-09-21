@@ -2,24 +2,24 @@
     z-index: ;
   }
   
-  .logo {
-      height: 3.75rem;
-      width: 3.75rem;
+.logo {
+    height: 3.59rem;
+    width: 5rem;
+    border-radius: 0.3125rem;
+}
+  
+/* *************** MENU ****************** */
+  
+.nav-link {
+    font-weight: 500;
+    text-transform:var(--text-uppercase);
   }
   
-  
-  /* *************** MENU ****************** */
-  
-  .nav-link {
-      font-weight: 500;
-      text-transform:var(--text-uppercase);
+.nav-link:focus{
+    border-radius: 0.625rem;
+    border-bottom: 0.125rem solid var(--primary-orange);
   }
   
-  .nav-link:focus{
-      border-radius: 0.625rem;
-      border-bottom: 0.125rem solid var(--primary-orange);
-  }
-  
-  .nav-link:hover{
-      border-bottom: 0.125rem solid var(--primary-orange);
-  }
+.nav-link:hover{
+    border-bottom: 0.125rem solid var(--primary-orange);
+}

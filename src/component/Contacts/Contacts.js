@@ -1,6 +1,6 @@
 import './Contacts.css'
-import emailjs from 'emailjs-com'
 import React from 'react';
+import emailjs from 'emailjs-com';
 import { Button, Card, CardGroup, Col, FloatingLabel, Form } from 'react-bootstrap';
 
 const Contacts = () => {
@@ -19,6 +19,14 @@ const Contacts = () => {
             .catch(err => console.log(err.text));
     }
 
+    function success() {
+        Form.reset();
+        // status.innerHtml = "Thanks";
+    }
+    function error() {
+        // status.innerHtml = " Oops! Something was wrong.";
+    }
+
     return (
         <div className="form-wrapper">
             <h1 className="text-center contact-wrapper fw-normal">contact me</h1>
@@ -27,14 +35,14 @@ const Contacts = () => {
                 <Form onSubmit={sendEmail}>
                     <CardGroup>
                         <Col>
-                            <Form.Group className="p-2 " as={Col} controlId="formGridEmail">
-                                <Form.Control type="text" name="name" placeholder="Name" />
+                            <Form.Group className="p-2 mb-3" as={Col} controlId="formGridEmail">
+                                <Form.Control type="text" name="name" placeholder="Name" required/>
                             </Form.Group>
-                            <Form.Group className="p-2 mt-3 mb-3" controlId="formGridAddress1">
-                                <Form.Control type="number" name="number" placeholder="Phone Number" />
+                            <Form.Group className="p-2 mb-3" controlId="formGridAddress1">
+                                <Form.Control type="number" name="number" placeholder="Phone Number" required/>
                             </Form.Group>
                             <Form.Group className="mb-3 p-2" controlId="formGridAddress2">
-                                <Form.Control type="email" name="email" placeholder="Email" />
+                                <Form.Control type="email" name="email" placeholder="Email" required/>
                             </Form.Group>
                             <Form.Group className="mb-3 p-2" controlId="formGridAddress2">
                                 <Form.Control name="subject" placeholder="Subject" />
@@ -48,10 +56,12 @@ const Contacts = () => {
                                         as="textarea"
                                         placeholder="Leave a comment here"
                                         style={{ height: '150px' }}
+                                        required
                                     />
                                 </FloatingLabel>
-                                <div className="d-grid mt-4">
+                                <div className="d-grid mt-3 mb-">
                                     <Button type="submit" variant="success" size="lg">CONTACT ME</Button>
+                                    <p className="status text-center">Thanks</p>
                                 </div>
                             </Card.Body>
                         </Col>

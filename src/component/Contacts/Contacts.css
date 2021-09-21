@@ -1,8 +1,14 @@
 .form-wrapper{
-    border-top: 80px solid #343a42;
+    border-top: 50px solid #343a42;
+    border-bottom: 50px solid #343a42;
     background-color: #343a42;
 }
+
 .contact-wrapper{
     color: var(--primary-orange);
     text-transform: var(--text-uppercase);
+}
+
+.status{
+    color: var(--primary-orange);
 }

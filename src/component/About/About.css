@@ -25,7 +25,11 @@
     }
 }
 
-.text-about{
+/* ----------------Shared Css---------------- */
+
+.text-about,
+.experience-text
+{
     color: var(--primary-orange);
     text-transform:var(--text-uppercase);
 }

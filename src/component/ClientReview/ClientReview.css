@@ -1,0 +1,12 @@
+.owl-theme {
+    margin-bottom: 3.75rem;
+    text-align: center;
+    background-color: goldenrod;
+    height: 31.25rem;
+    width: 18.75rem;
+}
+/* style={{ width: '100%', height: '28rem' }} */
+.cli-card{
+    width: 100%;
+    height: 28rem;
+}
