@@ -3,19 +3,23 @@
 } */
 .img-centered {
     transform: translate(30%);
+    text-align: center;
     width: 20.75rem;
+    height: 20.75rem;
     border-radius: 50%;
 }
 
 @media (max-width: 768px) {
     .img-centered {
         width: 16.75rem;
+        height: 16.75rem;
     }
 }
 
 @media (max-width: 425px) {
     .img-centered {
         width: 12.75rem;
+        height: 12.75rem;
     }
 }
 
@@ -25,7 +29,23 @@
     }
 }
 
-/* ----------------Shared Css---------------- */
+.resume-rapping{
+    color: var(--primary-orange);
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid var(--primary-red);
+    padding: 0.625rem;
+    text-align: center;
+    margin-top: 400px;
+    margin-left: 30%;
+}
+
+.resume-rapping:hover {
+    color: var(--primary-white);
+    background-color: green;
+}
+
+/* ----------------Shared Css class---------------- */
 
 .text-about,
 .experience-text

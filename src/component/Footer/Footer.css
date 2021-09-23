@@ -8,22 +8,16 @@
     display: flex;
     height: 14.75rem;
     text-align: center;
-    /* justify-content: left; */
     line-height: 1rem;
 }
 
 @media (max-width: 425px) {
     .footer-wrapper{
-        /* color: var(--primary-white); */
-        display: flex;
-        height: 24.75rem;
-        text-align: center;
-        /* justify-content: left; */
-        /* line-height: 1rem; */
+        height: 34rem;
     }
 }
 
-.fa-icon{
+.footer-anchor{
+    text-decoration: none;
     color: var(--primary-white);
-    font-size: 40px;
 }

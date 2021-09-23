@@ -29,7 +29,7 @@ const Contacts = () => {
 
     return (
         <div className="form-wrapper">
-            <h1 className="text-center contact-wrapper fw-normal">contact me</h1>
+            <h1 className="contact-wrapper fw-normal">contact me</h1>
             <h5 className="text-center text-white fw-normal mt-3">Please fill out the form and describe your project needs and I'll contact you as soon as possible.</h5>
             <div className="container mt-5">
                 <Form onSubmit={sendEmail}>
@@ -59,9 +59,9 @@ const Contacts = () => {
                                         required
                                     />
                                 </FloatingLabel>
-                                <div className="d-grid mt-3 mb-">
+                                <div className="d-grid mt-3">
                                     <Button type="submit" variant="success" size="lg">CONTACT ME</Button>
-                                    <p className="status text-center">Thanks</p>
+                                    <p className="status text-center mt-2">Thanks</p>
                                 </div>
                             </Card.Body>
                         </Col>

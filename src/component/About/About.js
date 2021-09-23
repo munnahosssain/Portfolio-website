@@ -1,7 +1,7 @@
 import './About.css'
 import '../../App.css'
 import React from 'react';
-import logo from '../images/logo.png'
+import profile from '../images/profile.png'
 
 const About = () => {
     return (
@@ -9,7 +9,10 @@ const About = () => {
             <div class="container">
                 <div class="row g-0">
                     <div class="col-md-6">
-                        <img src={logo} class="img-fluid img-centered round-circle" alt="..." />
+                        <div>
+                            <img src={profile} class="img-centered" alt="..." />
+                        </div>
+                        <a className="resume-rapping" href="https://docs.google.com/document/d/1tq4DfzJRoj027lJkkN6W8oaWZASBhfw_Iex119ehRAw/edit">Download Me</a>
                     </div>
                     <div class="col-md-6">
                         <div class="card-body about-text-centered">

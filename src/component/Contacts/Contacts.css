@@ -5,6 +5,7 @@
 }
 
 .contact-wrapper{
+    text-align: center;
     color: var(--primary-orange);
     text-transform: var(--text-uppercase);
 }

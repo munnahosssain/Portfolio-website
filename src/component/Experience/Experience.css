@@ -2,3 +2,23 @@
     text-align: center;
     border-top: 2.5rem solid var(--primary-white);
 }
+
+.experience-img{
+    height: 18rem;
+    /* width: 22rem; */
+}
+
+.url-customized:hover{
+    text-decoration: 1;
+    zoom: 1;
+}
+
+.url-customized a{
+    color: var(--color-dark);
+    text-decoration: none;
+}
+.card-shadow{
+    box-shadow: 5px 5px #f0e7e7;
+    border-radius: 5px !important;
+    border: none!important;
+}
