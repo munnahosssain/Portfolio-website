@@ -3,6 +3,7 @@
 } */
 .img-centered {
     transform: translate(30%);
+    margin-top:-10;
     text-align: center;
     width: 20.75rem;
     height: 20.75rem;
@@ -30,14 +31,14 @@
 }
 
 .resume-rapping{
-    color: var(--primary-orange);
+    color: var(--primary-dark);
     text-transform: uppercase;
     text-decoration: none;
     border: 1px solid var(--primary-red);
     padding: 0.625rem;
-    text-align: center;
-    margin-top: 400px;
-    margin-left: 30%;
+    /* text-align: center; */
+    margin-top: 50rem;
+    margin-left: 26%;
 }
 
 .resume-rapping:hover {

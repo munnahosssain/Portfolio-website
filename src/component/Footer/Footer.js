@@ -2,7 +2,7 @@ import './Footer.css'
 import React from 'react';
 import { Image, Nav, Navbar } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faPhoneAlt, faGithub } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 import logo from '../images/logo.png';
 
 const Footer = () => {

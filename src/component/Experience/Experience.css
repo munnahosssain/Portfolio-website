@@ -4,21 +4,17 @@
 }
 
 .experience-img{
-    height: 18rem;
-    /* width: 22rem; */
-}
-
-.url-customized:hover{
-    text-decoration: 1;
-    zoom: 1;
+    height: 15rem;
+    /* width: 18.4rem; */
 }
 
 .url-customized a{
     color: var(--color-dark);
     text-decoration: none;
 }
+
 .card-shadow{
-    box-shadow: 5px 5px #f0e7e7;
+    box-shadow: 5px 5px 10px #a7a6a6;
     border-radius: 5px !important;
     border: none!important;
 }
