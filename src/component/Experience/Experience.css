@@ -18,3 +18,14 @@
     border-radius: 5px !important;
     border: none!important;
 }
+
+.tools-wrapping{
+    border-radius: 50px;
+    color: whitesmoke;
+    background-color: red;
+}
+
+.html-button{
+    color: var(--primary-white);
+    background: linear-gradient(45deg, #ff193f, #ff35b4);
+}

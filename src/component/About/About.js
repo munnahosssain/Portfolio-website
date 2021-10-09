@@ -13,7 +13,7 @@ const About = () => {
                             <img src={profile} class="img-centered" alt="..." />
                         </div>
                         <div class="mt-5">
-                            <a className="resume-rapping" href="https://docs.google.com/document/d/1tq4DfzJRoj027lJkkN6W8oaWZASBhfw_Iex119ehRAw/edit">download resume</a>
+                            <a className="resume-rapping" href="/*https://docs.google.com/document/d/1tq4DfzJRoj027lJkkN6W8oaWZASBhfw_Iex119ehRAw/edit*/"><i class="fas fa-download"></i> download resume</a>
                         </div>
                     </div>
                     <div class="col-md-6">

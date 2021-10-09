@@ -16,7 +16,7 @@ const ClientReview = () => {
                     dots={true}
                     arrows={false}
                     loop={true}
-                    autoplay={true}
+                    // autoplay={true}
                     items={1}
                     margin={0}
                     // nav={true}
@@ -27,7 +27,7 @@ const ClientReview = () => {
                         <Card className='card-style'>
                             <div class="row g-0">
                                 <div class="col-md-5">
-                                    <img src={logo} class="img-sizing mt-5 ms-5" alt="..." />
+                                    <img src={logo} class="img-sizing ms-5" alt="..." />
                                 </div>
                                 <div class="col-md-6">
                                     <div class="card-body text-rev">

@@ -16,7 +16,13 @@ const Experience = () => {
                 <CardGroup className="mt-3 mb-5">
                     <Card className="card-shadow ms-2">
                         <img src={pinMatcher} class="experience-img mt-2 ms-2 me-2" alt="..." />
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolore.</p>
+                        <div className="d-flex justify-content-evenly">
+                            
+                            <button class="btn html-button p-1">d-inline</button>
+                            <p class="">d-inline</p>
+                            {/* <button type="button" class="btn-warning">Primary</button>
+                            <button type="button" class="btn btn-primary">Primary</button> */}
+                        </div>
                         <div className="url-customized d-flex justify-content-evenly">
                             <a className="fas fa-video" href="https://munnahosssain.github.io/Pin-Macher/"> LIVE</a>
                             <a className="fab fa-github" href="https://github.com/munnahosssain/Pin-Macher"> CODE</a>
@@ -30,7 +36,7 @@ const Experience = () => {
                             <a className="fab fa-github" href="https://github.com/munnahosssain/Flight-Booking"> CODE</a>
                         </div>
                     </Card>
-                    <Card className="card-shadow">
+                    <Card className="card-shadow ms-3">
                         <img src={pionerBank} class="experience-img mt-2 ms-2 me-2" alt="..." />
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, sapiente?</p>
                         <div className="url-customized d-flex justify-content-evenly">
@@ -42,12 +48,12 @@ const Experience = () => {
                         <img src={shopingEcom} class="experience-img mt-2 ms-2 me-2" alt="..." />
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, sapiente?</p>
                         <div className="url-customized d-flex justify-content-evenly">
-                            <a className="fas fa-video" href="https://munnahosssain.github.io/Pioneer-Bank/"> LIVE</a>
+                            <a className="fas fa-video" href="https://munnahosssain.github.io/Shoping-e-com/"> LIVE</a>
                             <a className="fab fa-github" href="https://github.com/munnahosssain/Shoping-e-com"> CODE</a>
                         </div>
                     </Card>
                 </CardGroup>
-                <h4 className="ms-4">ReactJS Projects...</h4>
+                <h4 className="ms-4">React Projects...</h4>
                 <CardGroup className="mt-3 mb-5">
                     <Card className="card-shadow ms-2">
                         <img src={tabIcon} class="experience-img mt-2 ms-2 me-2" alt="..." />

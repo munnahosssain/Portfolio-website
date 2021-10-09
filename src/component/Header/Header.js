@@ -14,7 +14,7 @@ const Header = () => {
                     strings={[
                         "Web design",
                         "Web development",
-                        "wordpress website"
+                        "wordpress design"
                     ]}
                     typeSpeed={40}
                     backSpeed={60}
