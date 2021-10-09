@@ -16,7 +16,7 @@ const ClientReview = () => {
                     dots={true}
                     arrows={false}
                     loop={true}
-                    // autoplay={true}
+                    autoplay={true}
                     items={1}
                     margin={0}
                     // nav={true}
@@ -27,7 +27,7 @@ const ClientReview = () => {
                         <Card className='card-style'>
                             <div class="row g-0">
                                 <div class="col-md-5">
-                                    <img src={logo} class="img-sizing mt- ms-" alt="..." />
+                                    <img src={logo} class="img-fluid mt- ms-" alt="..." />
                                 </div>
                                 <div class="col-md-6">
                                     <div class="card-body text-rev">
@@ -47,7 +47,7 @@ const ClientReview = () => {
                                 </div>
                                 <div class="col-md-6">
                                     <div class="card-body text-rev">
-                                        <h5 class="card-title">Card title</h5>
+                                        <h4 class="card-title">Hasan Abdullah</h4>
                                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iure quisquam, harum minus aut, sint porro consequatur eum labore facere illo sit dolor incidunt, libero officiis velit nam officia. Mollitia veritatis officiis vero tempora maxime pariatur eligendi voluptates, ipsam corrupti odit eaque exercitationem quam sit rerum ipsum reprehenderit culpa recusandae.</p>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
@@ -63,7 +63,7 @@ const ClientReview = () => {
                                 </div>
                                 <div class="col-md-6">
                                     <div class="card-body text-rev">
-                                        <h5 class="card-title">Card title</h5>
+                                        <h4 class="card-title">John Clinton</h4>
                                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iure quisquam, harum minus aut, sint porro consequatur eum labore facere illo sit dolor incidunt, libero officiis velit nam officia. Mollitia veritatis officiis vero tempora maxime pariatur eligendi voluptates, ipsam corrupti odit eaque exercitationem quam sit rerum ipsum reprehenderit culpa recusandae.</p>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
