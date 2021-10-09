@@ -1,6 +1,6 @@
 import './App.css';
 import NavBar from './component/NavBar/NavBar';
-import Particles from 'react-particles-js';
+import Particle from './component/Particle/Particle';
 import About from './component/About/About';
 import Services from './component/Services/Services';
 import Header from './component/Header/Header';
@@ -12,33 +12,13 @@ import Footer from './component/Footer/Footer';
 function App() {
     return (
         <div>
-            <Particles
-                className="particles-js"
-                params={{
-                    Particles: {
-                        Number: {
-                            value: 30,
-                            density: {
-                                enable: true,
-                                value_area: 900
-                            }
-                        },
-                        shape: {
-                            type: 'circle',
-                            stroke: {
-                                width: 6,
-                                color: '#f9ab00'
-                            }
-                        }
-                    }
-                }}
-            />
+            <Particle />
             <NavBar />
             <Header />
             <About />
             <Services />
             <Experience />
-            {/* <ClientReview /> */}
+            <ClientReview />
             <Contacts />
             <Footer />
         </div>
