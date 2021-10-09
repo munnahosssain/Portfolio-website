@@ -1,4 +1,4 @@
-.client-text{
+.client-text {
     text-align: center;
     margin-bottom: 1.25rem;
     text-transform: uppercase;
@@ -6,7 +6,7 @@
     color: #2600ff;
 }
 
-.client-part{
+.client-part {
     border-top: 1.87rem solid goldenrod;
     background-color: goldenrod;
 }
@@ -23,23 +23,24 @@
     }
 }
 
-/* .cli-card {
+.cli-card {
     width: 100%;
     height: 28rem;
-} */
+}
 
-/* .img-sizing {
-    width: 20.75rem !important;
-    height: 20.75rem !important;
-    border-radius: 50% !important;
-} */
+@media (max-width: 320px) {
+    .img-fluid {
+        height: 100% !important;
+        width: 15rem !important;
+    }
+}
 
-.text-rev{
+.text-rev {
     margin-top: 15%;
 }
 
 @media (max-width: 768px) {
-    .text-rev{
+    .text-rev {
         margin-top: -10%;
     }
 }

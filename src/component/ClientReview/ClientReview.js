@@ -5,7 +5,7 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { Card, Container } from 'react-bootstrap';
 import logo from '../images/logo.png'
-const ClientReview = () => {
+const ClientReview = (props) => {
 
     return (
         <div className="client-part">
@@ -16,7 +16,7 @@ const ClientReview = () => {
                     dots={true}
                     arrows={false}
                     loop={true}
-                    autoplay={true}
+                    // autoplay={true}
                     items={1}
                     margin={0}
                     // nav={true}
@@ -27,9 +27,9 @@ const ClientReview = () => {
                         <Card className='card-style'>
                             <div class="row g-0">
                                 <div class="col-md-5">
-                                    <img src={logo} class="img-fluid mt- ms-" alt="..." />
+                                    <img src={logo} className="img-fluid" alt="..." />
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-7">
                                     <div class="card-body text-rev">
                                         <h4 class="card-title">John Doe</h4>
                                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iure quisquam, harum minus aut, sint porro consequatur eum labore facere illo sit dolor incidunt, libero officiis velit nam officia. Mollitia veritatis officiis vero tempora maxime pariatur eligendi voluptates, ipsam corrupti odit eaque exercitationem quam sit rerum ipsum reprehenderit culpa recusandae.</p>
@@ -43,9 +43,9 @@ const ClientReview = () => {
                         <Card className='card-style'>
                             <div class="row g-0">
                                 <div class="col-md-5">
-                                    <img src={logo} class="img-sizing mt- ms-" alt="..." />
+                                    <img src={logo} className="img-fluid" alt="..." />
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-7">
                                     <div class="card-body text-rev">
                                         <h4 class="card-title">Hasan Abdullah</h4>
                                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iure quisquam, harum minus aut, sint porro consequatur eum labore facere illo sit dolor incidunt, libero officiis velit nam officia. Mollitia veritatis officiis vero tempora maxime pariatur eligendi voluptates, ipsam corrupti odit eaque exercitationem quam sit rerum ipsum reprehenderit culpa recusandae.</p>
@@ -59,9 +59,9 @@ const ClientReview = () => {
                         <Card className='card-style'>
                             <div class="row g-0">
                                 <div class="col-md-5">
-                                    <img src={logo} class="img-sizing mt- ms5" alt="..." />
+                                    <img src={logo} className="img-fluid" alt="..." />
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-7">
                                     <div class="card-body text-rev">
                                         <h4 class="card-title">John Clinton</h4>
                                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iure quisquam, harum minus aut, sint porro consequatur eum labore facere illo sit dolor incidunt, libero officiis velit nam officia. Mollitia veritatis officiis vero tempora maxime pariatur eligendi voluptates, ipsam corrupti odit eaque exercitationem quam sit rerum ipsum reprehenderit culpa recusandae.</p>
