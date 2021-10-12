@@ -9,7 +9,7 @@ import code from '../images/code.png';
 import tabIcon from '../images/tabIcon.png';
 const Experience = () => {
     return (
-        <div>
+        <div id="experience">
             <h1 className="experience-text fw-normal text-experience">Experience</h1>
             <Container>
                 <h4 className="ms-4">Javascript Projects...</h4>

@@ -2,25 +2,25 @@ import './NavBar.css'
 import React from 'react';
 import { Container, Image, Nav, Navbar } from 'react-bootstrap';
 import logo from '../images/logo.png';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" className="p-2 fixed-top navbar" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" className="fixed-to" bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">
+                    <Link to="/">
                         <Image className="logo" src={logo} />
-                    </Navbar.Brand>
+                    </Link>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto"></Nav>
-                        <Nav className="ml-auto active">
-                            <Nav.Link href="#home" className="me-5 nav-link">Home</Nav.Link>
-                            <Nav.Link href="#about" className="me-5 nav-link">About</Nav.Link>
-                            <Nav.Link href="#services" className="me-5 nav-link">services</Nav.Link>
-                            <Nav.Link href="#experience" className="me-5 nav-link">experience</Nav.Link>
-                            <Nav.Link href="#portfolio" className="me-5 nav-link">portfolio</Nav.Link>
-                            <Nav.Link href="#contacts" className="me-5 nav-link">contacts</Nav.Link>
+                        <Nav className="ml-auto">
+                            <Link to="/" id="home" className="me-5 nav-link">Home</Link>
+                            <Link to="/about" id="about" className="me-5 nav-link">About</Link>
+                            <Link to="/services" id="services" className="me-5 nav-link">services</Link>
+                            <Link to="/experience" id="experience" className="me-5 nav-link">experience</Link>
+                            <Link to="/contacts" id="contact" className="me-5 nav-link">contacts</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

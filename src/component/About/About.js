@@ -5,7 +5,7 @@ import profile from '../images/profile.png'
 
 const About = () => {
     return (
-        <div class="mt-5 mb-5">
+        <div id="about" class="mt-5 mb-5">
             <div class="container">
                 <div class="row g-0">
                     <div class="col-md-6">
