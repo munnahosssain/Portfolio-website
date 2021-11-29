@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" className="fixed-to" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" fixed="top" bg="dark" variant="dark">
                 <Container>
                     <Link to="/">
                         <Image className="logo" src={logo} />
@@ -16,11 +16,11 @@ const NavBar = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto"></Nav>
                         <Nav className="ml-auto">
-                            <Link to="/" id="home" className="me-5 nav-link">Home</Link>
-                            <Link to="/about" id="about" className="me-5 nav-link">About</Link>
-                            <Link to="/services" id="services" className="me-5 nav-link">services</Link>
-                            <Link to="/experience" id="experience" className="me-5 nav-link">experience</Link>
-                            <Link to="/contacts" id="contact" className="me-5 nav-link">contacts</Link>
+                            <Nav.Link to="/" href="#home" className="me-5 nav-link">Home</Nav.Link>
+                            <Nav.Link to="/about" href="#about" className="me-5 nav-link">About</Nav.Link>
+                            <Nav.Link to="/services" href="#services" className="me-5 nav-link">services</Nav.Link>
+                            <Nav.Link to="/experience" href="#experience" className="me-5 nav-link">experience</Nav.Link>
+                            <Nav.Link to="/contacts" href="#contact" className="me-5 nav-link">contacts</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

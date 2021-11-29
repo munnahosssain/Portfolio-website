@@ -24,8 +24,8 @@ const Contacts = () => {
 
     return (
         <div id="contact" className="form-wrapper">
-            <h1 className="contact-wrapper fw-normal">contact me</h1>
-            <h5 className="text-center text-white fw-normal mt-3">Please fill out the form and describe your project needs and I'll contact you as soon as possible.</h5>
+            <h1 className="contact-wrapper">contact me</h1>
+            <h5 className="contact-h5">Please fill out the form and describe your project needs and I'll contact you as soon as possible.</h5>
             <div className="container mt-5">
                 <Form onSubmit={sendEmail}>
                     <CardGroup>

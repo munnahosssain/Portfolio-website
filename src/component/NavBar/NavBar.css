@@ -1,20 +1,20 @@
 .logo {
-    height: 3.59rem;
-    width: 5rem;
-    border-radius: 0.3125rem;
+  height: 3.59rem;
+  width: 5rem;
+  border-radius: 0.3125rem;
 }
-  
+
 /* *************** MENU ****************** */
-  
+
 .nav-link {
-    font-weight: 700;
-    text-transform:var(--text-uppercase);
-  }
-  
-.nav-link:focus{
-    border-bottom: 0.125rem solid royalblue;
-  }
-  
-.nav-link:hover{
-    border-bottom: 0.125rem solid var(--primary-orange);
+  font-weight: 700;
+  text-transform: var(--text-uppercase);
+}
+
+.nav-link:focus {
+  border-bottom: 0.125rem solid royalblue;
+}
+
+.nav-link:hover {
+  border-bottom: 0.125rem solid var(--primary-orange);
 }

@@ -9,11 +9,12 @@ import Services from '../Services/Services';
 import Experience from '../Experience/Experience';
 import Contacts from '../Contacts/Contacts';
 import Footer from '../Footer/Footer';
+import ClientReview from '../ClientReview/ClientReview';
 const Header = () => {
     return (
         <div id="home" className="header-wrapper">
-            <Particle/>
-            <Image src={headerBg} style={{ width: "100%", height: "100%" }} fluid />
+            <Particle />
+            <img src={headerBg} alt="" style={{ width: "100%", height: "100%" }} fluid />
             <div>
                 <h1 className="main-info centered">Development and website promotions</h1>
                 <Typed
@@ -21,19 +22,21 @@ const Header = () => {
                     strings={[
                         "Web design",
                         "Web development",
-                        "wordpress design"
+                        "responsive design",
+                        "wordpress design",
                     ]}
                     typeSpeed={40}
                     backSpeed={60}
                     loop
                 />
-                <a href="#" className="btn-main btn-centered">Contact me</a>
+                <a href="#contact" className="btn-main btn-centered">Contact me</a>
             </div>
-            <About/>
-            <Services/>
-            <Experience/>
-            <Contacts/>
-            <Footer/>
+            <About />
+            <Services />
+            <Experience />
+            {/* <ClientReview /> */}
+            <Contacts />
+            <Footer />
         </div>
     );
 };

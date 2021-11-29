@@ -1,40 +1,50 @@
 import './Services.css'
-import React from 'react';
+import { Card } from 'react-bootstrap';
 
 const Services = () => {
+    const data = [
+        {
+            id: "1",
+            title: "Web Design",
+            icon: "https://i.ibb.co/yWzvBGB/web-Design.png",
+            desc: "I approach each individually and always focus on the result.",
+        },
+        {
+            id: "2",
+            title: "Web Development",
+            icon: "https://i.ibb.co/DK4b621/R.png",
+            desc: "Your website will be build with an new proven technologies.",
+        },
+        {
+            id: "3",
+            title: "Responsive Design",
+            icon: "https://i.ibb.co/HK36rbk/pc-Tab-Mobile.png",
+            desc: "I will create web site that are consistent in quality across a variety of devices and screen sizes.",
+        },
+        {
+            id: "4",
+            title: "Wordpress Design",
+            icon: "https://i.ibb.co/5RBhqds/wordpress.png",
+            desc: "Your website will be build with wordpress technologies.",
+        },
+
+    ]
     return (
-        <div id="services" class="bg-color">
-            <h1 class="mb-5 text-center serviced fw-normal">my services</h1>
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-4 g-4">
-                    <div class="col">
-                        <div class="card-body text-center serviced-titles">
-                            <i class="fas fa-desktop fa-icon"></i>
-                            <h3 class="card-title fw-normal">Web Design</h3>
-                            <p class="card-text">I approach each individually and always focus on the result.</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card-body text-center serviced-titles">
-                            <i class="fas fa-code fa-icon"></i>
-                            <h3 class="card-title fw-normal">Web Development</h3>
-                            <p class="card-text">Your website will be build with an new proven technologies.</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card-body text-center serviced-titles">
-                            <i class="fab fa-wordpress-simple fa-icon"></i>
-                            <h3 class="card-title fw-normal">Wordpress Website</h3>
-                            <p class="card-text">Your website will be build with wordpress technologies.</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card-body text-center serviced-titles">
-                            <i class="fab fa-facebook fa-icon"></i>
-                            <h3 class="card-title fw-normal">Facebook Ads</h3>
-                            <p class="card-text">Your potential clients well your services or product on Facebook.</p>
-                        </div>
-                    </div>
+        <div id="services" className="services">
+            <h1 class="serviced-h1">my services</h1>
+            <div className="container">
+                <div className="row">
+                    {
+                        data.map(dt =>
+                            <Card className="serviced-title" style={{ width: '18rem' }}>
+                                <Card.Img className="service-icon" variant="top" src={dt.icon} />
+                                <Card.Body>
+                                    <Card.Title>{dt.title}</Card.Title>
+                                    <Card.Text>{dt.desc}</Card.Text>
+                                </Card.Body>
+                            </Card>
+                        )
+                    }
                 </div>
             </div>
         </div>

@@ -1,58 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Condensed:wght@300&display=swap');
 
-body{
-    font-family: "Oswald";
+body {
+  font-family: "Oswald";
 }
 
-:root{
-    --primary-white: #fff;
-    --primary-orange: #f98b00;
-    --primary-dark: black;
-    --primary-red: #ef4035;
-    --primary-hover-red: #f33501;
+:root {
+  --primary-white: #fff;
+  --primary-orange: #f98b00;
+  --primary-dark: black;
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
 
-    --text-uppercase: uppercase;
+  --text-uppercase: uppercase;
 }
 
 /* --------------- HEADER --------------- */
 
 .centered {
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: var(--primary-orange);
-    text-transform: var(--text-uppercase);
-    z-index: 1;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--primary-orange);
+  text-transform: var(--text-uppercase);
+  z-index: 1;
 }
 
 
 /* --------------- TYPED-TEXT --------------- */
 
-.typed-text{
-    font-size: 1.5rem;
-    color: var(--primary-white);
-    top: 57%;
+.typed-text {
+  font-size: 1.5rem;
+  color: var(--primary-white);
+  top: 57%;
 }
 
 @media (max-width: 1635px) {
-  .typed-text{
+  .typed-text {
     font-size: 1.5rem;
     top: 58%;
   }
 }
 
 @media (max-width: 768px) {
-  .typed-text{
-    font-size: 1.5rem;
-    top: 58%;
+  .typed-text {
+    font-size: 1rem;
+    top: 56%;
   }
 }
 
 @media (max-width: 425px) {
-  .typed-text{
-    font-size: 0.9rem;
-    top: 59%;
+  .typed-text {
+    font-size: .7rem;
+    top: 56%;
   }
 }
-  
+@media (max-width: 375px) {
+  .typed-text {
+    font-size: .5rem;
+    top: 56%;
+  }
+}

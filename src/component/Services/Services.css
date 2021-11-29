@@ -1,82 +1,100 @@
-.bg-color{
-    height: 49vh;
+.services {
+    height: 80vh;
     background-color: #e6e6e6;
 }
 
 @media (max-width:1440px) {
-    .bg-color{
-        height: 49vh;
+    .services {
+        height: 70vh;
+    }
+}
+
+@media (max-width:1024px) {
+    .services {
+        height: 90vh;
     }
 }
 
 @media (max-width:768px) {
-    .bg-color{
-        height: 55vh;
+    .services {
+        height: 95vh;
     }
 }
 
 @media (max-width:425px) {
-    .bg-color{
-        height: 160vh;
+    .services {
+        height: 170vh;
     }
 }
 
-.serviced{
-    border-top: 30px solid #e6e6e6;
+.serviced-h1 {
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 3rem;
     color: var(--primary-black);
+    border-top: 8.125rem solid #e6e6e6;
     text-transform: var(--text-uppercase);
 }
 
-.serviced-titles {
+@media (max-width:1024px) {
+    .serviced-h1 {
+        border-top: 50px solid #e6e6e6;
+    }
+}
+
+.serviced-title {
+    margin: 5px;
+    width: 24vw;
     height: 26vh;
-    width: 14vw;
-    background-color: var(--primary-white);
+    text-align: center;
     border-radius: 0.25rem;
-    border-bottom: 0.25rem solid var(--primary-orange);
+    /* background-color: var(--primary-white) !important; */
+    border-bottom: 0.25rem solid var(--primary-orange) !important;
 }
 
 @media (max-width:1440px) {
-    .serviced-titles {
+    .serviced-title {
         height: 30vh;
         width: 18vw;
     }
 }
 
 @media (max-width:1024px) {
-    .serviced-titles {
+    .serviced-title {
         height: 30vh;
         width: 22vw;
     }
 }
 
 @media (max-width: 768px) {
-    .serviced-titles {
+    .serviced-title {
         height: 33vh;
         width: 22vw;
     }
 }
 
 @media (max-width: 425px) {
-    .serviced-titles {
-        height: 33vh;
+    .serviced-title {
         width: 62vw;
-        margin-left: 2.6rem;
+        height: 33vh;
     }
 }
 
-.serviced-titles:hover {
-    transition: .5s ease-in-out;
-    color : var(--primary-white);
-    background-color : var(--primary-orange);
-    border-bottom: 4px solid var(--primary-dark);
+.serviced-title:hover {
+    transition: .4s ease-in-out;
+    /* color: var(--primary-white); */
+    background-color: var(--primary-orange);
+    border-bottom: 4px solid var(--primary-dark) !important;
+
 }
 
-.fa-icon {
-    padding-bottom: 0.625rem;
-    font-size: 2.5rem;
-    color : #3a86ff;
+.service-icon {
+    height: 4rem;
+    margin-left: 6rem;
+    width: 4rem !important;
+    /* text-align: center !important; */
 }
 
-.fa-icon:hover {
-    color : var(--primary-white);
-}
+/* .service-icon:hover {
+    color: var(--primary-orange);
+} */

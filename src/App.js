@@ -5,7 +5,8 @@ import Services from './component/Services/Services';
 import Home from './component/Home/Home';
 import Experience from './component/Experience/Experience';
 import Contacts from './component/Contacts/Contacts';
-import Footer from './component/Footer/Footer';
+import PageNotFound from './component/PageNotFound/PageNotFound';
+import ClientReview from './component/ClientReview/ClientReview';
 import {
     BrowserRouter as Router,
     Switch,
@@ -30,12 +31,16 @@ function App() {
                     <Route path="/experience">
                         <Experience />
                     </Route>
+                    <Route path="/review">
+                        <ClientReview />
+                    </Route>
                     <Route path="/contacts">
                         <Contacts />
                     </Route>
-
+                    <Route component={PageNotFound}>
+                        <PageNotFound />
+                    </Route>
                 </Switch>
-                {/* <Footer /> */}
             </Router>
         </div>
     );

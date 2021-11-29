@@ -1,13 +1,22 @@
-/* .bg-color {
-    background: linear-gradient(#ffffff), #e5e5e5);
-} */
+.cntnr {
+    border-top: 3rem solid #fff;
+}
+
 .img-centered {
     transform: translate(30%);
-    margin-top:-10;
+    margin-top: -10;
     text-align: center;
     width: 20.75rem;
     height: 20.75rem;
     border-radius: 50%;
+    border: 1px solid gray
+}
+
+@media (max-width: 1024px) {
+    .img-centered {
+        width: 16.75rem;
+        height: 16.75rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -26,31 +35,31 @@
 
 @media (max-width: 768px) {
     .about-text-centered {
-    margin: 2.5rem;
+        margin: 2.5rem;
+        font-size: 1px !important;
     }
 }
 
-.resume-rapping{
-    color: var(--primary-dark);
-    text-transform: uppercase;
-    text-decoration: none;
-    border: 1px solid var(--primary-red);
-    padding: 0.625rem;
-    /* text-align: center; */
-    margin-top: 50rem;
+.resume-button {
     margin-left: 26%;
+    margin-top: 50rem;
+    padding: 0.625rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--primary-dark);
+    border: 1px solid var(--primary-red);
 }
 
-.resume-rapping:hover {
-    color: var(--primary-white);
+.resume-button:hover {
     background-color: green;
+    color: var(--primary-white);
+    transition: .3s ease-in-out;
 }
 
 /* ----------------Shared Css class---------------- */
 
 .text-about,
-.experience-text
-{
+.experience-text {
     color: var(--primary-orange);
-    text-transform:var(--text-uppercase);
+    text-transform: var(--text-uppercase);
 }
